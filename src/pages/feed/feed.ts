@@ -18,12 +18,12 @@ export class FeedPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  public somaDoisNumeros(): void{
-    alert(5+10);
+  public somaDoisNumeros(texto ,nome_usuario): void{
+    alert(texto + nome_usuario);
   }
 
   ionViewDidLoad() {
-    this.somaDoisNumeros();
+    this.somaDoisNumeros("Bem vindo ao feed do: ", this.nome_usuario);
   }
 
 }
