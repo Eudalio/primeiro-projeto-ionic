@@ -23,7 +23,7 @@ export class FeedPage {
   }
 
   ionViewDidLoad() {
-    this.somaDoisNumeros("Bem vindo ao feed do: ", this.nome_usuario);
+    //this.somaDoisNumeros("Bem vindo ao feed do: ", this.nome_usuario);
   }
 
 }
